@@ -9,6 +9,7 @@ In order to initialize a Binary Tree, create a new BinaryTree object. For C++, I
 ```
 // Recommended
 std::unique_ptr<BinaryTree> rbt(new BinaryTree());
+
 // Raw Pointer
 BinaryTree *binaryTree = new BinaryTree();
 ```
@@ -17,6 +18,7 @@ Initializing a Red Black Tree is a similar process. Create a new RedBlackTree ob
 ```
 // Recommended
 std::unique_ptr<RedBlackTree> rbt(new RedBlackTree());
+
 // Raw Pointer
 RedBlackTree *rbt = new RedBlackTree();
 ```
