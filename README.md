@@ -8,7 +8,7 @@ To use any of the data structures, simply import the header files into your proj
 In order to initialize a Binary Tree, create a new BinaryTree object. For C++, I recommend using std::unique_pointer instead of creating a raw pointer.
 ```
 // Recommended
-std::unique_ptr<BinaryTree> rbt(new BinaryTree());
+std::unique_ptr<BinaryTree> binaryTree(new BinaryTree());
 
 // Raw Pointer
 BinaryTree *binaryTree = new BinaryTree();
